@@ -29,8 +29,9 @@ object App {
         val sink = ParquetSink(new Path(output + ".appender"))
         val parquetDS = ParquetSource(parquetFilePath).toDataStream()
         val lastIndex = parquetDS.count
-        println("parquet row count before append: ")
+        println("parquet row count before append: " + lastIndex)
         parquetDS.to(sink)
+        println("parquet row count after append: " + lastIndex)
         println("done")
   }
 
