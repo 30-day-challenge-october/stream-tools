@@ -30,13 +30,13 @@
                 <updatePolicy>always</updatePolicy>
                 <checksumPolicy>warn</checksumPolicy>
             </releases>
-        <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>never</updatePolicy>
-            <checksumPolicy>fail</checksumPolicy>
-        </snapshots>
-            <id>codehausSnapshots</id>
-            <name>Codehaus Snapshots</name>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+                <checksumPolicy>fail</checksumPolicy>
+            </snapshots>
+            <id>Maven Central</id>
+            <name>Maven Central Repo</name>
             <url>https://repo.maven.apache.org/maven2/</url>
             <layout>default</layout>
         </repository>
