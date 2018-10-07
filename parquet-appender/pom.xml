@@ -26,9 +26,8 @@
 
     <repositories>
         <repository>
-            <id>Maven Central</id>
-            <name>Maven Central Repo</name>
-            <url>https://repo.maven.apache.org/maven2/</url>
+            <id>central</id>
+            <url>http://repo1.maven.org/maven2</url>
         </repository>
     </repositories>
 
@@ -41,7 +40,7 @@
         <dependency>
             <groupId>io.eels</groupId>
             <artifactId>eel-core_2.11</artifactId>
-            <version>1.2.4</version>
+            <version>RELEASE</version>
         </dependency>
         <!-- Test -->
         <dependency>
