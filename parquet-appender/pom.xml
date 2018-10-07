@@ -39,7 +39,7 @@
         </dependency>
         <dependency>
             <groupId>io.eels</groupId>
-            <artifactId>eel-core_2.11</artifactId>
+            <artifactId>eel-core_2.12</artifactId>
             <version>RELEASE</version>
         </dependency>
         <!-- Test -->
